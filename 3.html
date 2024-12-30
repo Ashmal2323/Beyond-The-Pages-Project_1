@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famous Books</title>
+    <style>
+           @media screen and
+(max-width:600px){
+body {
+    font-size: 14px;
+  }
+
+  img {
+  max-width: 100%;
+    height: auto;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+}
+@media screen and 
+(min-width: 601px) and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+  .container {
+    padding: 20px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+}
+@media screen and 
+(min-width: 1025px) {
+  body {
+    font-size: 18px;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+h1 {
+    font-size: 28px;
+  }
+}
+        nav {
+            background-color: #2c3e50;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav a {
+            font-family: cursive;
+            color: white;
+            font-size: 1.2em;
+            margin: 0 15px;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #3498db;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-image: url("https://www.clutter.com/blog/wp-content/uploads/2018/03/02072057/book-spine-golden-page-edges-1.jpg");
+            height: 90vh;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            color: black;
+            font-size: 3em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        .books-section {
+            background-image: url("https://thumbs.dreamstime.com/b/sea-open-books-flat-lay-image-numerous-light-background-creating-visually-appealing-abstract-composition-conveys-342317358.jpg");
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px 20px;
+        }
+
+        .book {
+            background-color: lightgray;
+            border-radius: 20px;
+            box-shadow: #7f8c8d;
+            text-align: center;
+            padding: 20px;
+            max-width: 300px;
+            box-sizing: border-box;
+        }
+
+        .book:hover {
+            transform: translateY(-5px);
+            box-shadow:grey;
+        }
+
+        .book img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .book h3 {
+            font-size: 1.5em;
+            color: black;
+            margin-bottom: 10px;
+        }
+
+        .book p {
+            font-size: 1em;
+            color: black;
+        }
+
+        footer {
+            height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: lightgoldenrodyellow;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    gap: 90px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="./1.html">Importance</a>
+        <a href="./2.html">Categories</a>
+        <a href="./3.html">Famous Books</a>
+    </nav>
+    
+    <header>
+        <h1>Famous Books</h1>
+        <p><i>"Through books, we live a thousand lives and feel every emotion in the world"</i></p>
+    </header>
+
+    
+    <section class="books-section">
+        <div class="book">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnQ472uYK5UOemhgGD7wk3xpWJr4oDbsuY-A&s" alt="To Kill a Mockingbird">
+            <h3>To Kill a Mockingbird</h3>
+            <p><strong>Author:</strong> Harper Lee</p>
+            <p><strong>Description:</strong> A profound novel that explores racial injustice in the Deep South through the eyes of a young girl, Scout Finch. It's a timeless tale of morality, compassion, and courage.</p>
+        </div>
+
+        <div class="book">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRue5i7Tq64O8WH3ECvx6BEt_dyUtMfHodWRA&s" alt="1984">
+            <h3>1984</h3>
+            <p><strong>Author:</strong> George Orwell</p>
+            <p><strong>Description:</strong> A dystopian novel set in a totalitarian society under constant surveillance. It delves into themes of power, control, and freedom of thought.</p>
+        </div>
+
+        <div class="book">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvhmWW45reBgf13_53QzuHIW05v8pXR1G5SA&s" alt="Pride and Prejudice">
+            <h3>Pride and Prejudice</h3>
+            <p><strong>Author:</strong> Jane Austen</p>
+            <p><strong>Description:</strong> A classic romance novel that examines themes of love, social class, and personal growth through the story of Elizabeth Bennet and Mr. Darcy.</p>
+        </div>
+
+        <div class="book">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPkwBoPqiz64V2C8SkBTJYd9DCwcfntLgQRQ&s" alt="The Great Gatsby">
+            <h3>The Great Gatsby</h3>
+            <p><strong>Author:</strong> F. Scott Fitzgerald</p>
+            <p><strong>Description:</strong> A critique of the American Dream, this novel explores wealth, love, and betrayal in the roaring 1920s through the mysterious Jay Gatsby.</p>
+        </div>
+
+        <div class="book">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPGu7Ym_a_FdlP1VxjBmdkXDg5ajjZJQnCkg&s" alt="War and Peace">
+            <h3>War and Peace</h3>
+            <p><strong>Author:</strong> Leo Tolstoy</p>
+            <p><strong>Description:</strong> It is a historical novel set during the Napoleonic Wars, focusing on Russian aristocratic families. It explores themes of love, war, and the human condition.</p>
+        </div>
+        
+        <div class="book">
+            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1441831053i/3260388.jpg" alt="Peer-e-Kamil">
+            <h3>Peer-e-Kamil </h3>
+            <p><strong>Author:</strong> Umera Ahmed</p>
+            <p><strong>Description:</strong> A spiritual and emotional journey of love, faith, and redemption, following the transformative lives of Imama and Salar.</p>
+        </div>
+
+        <div class="book">
+            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1472648362i/564093.jpg" alt="Zaviya">
+            <h3>Zaviya</h3>
+            <p><strong>Author:</strong> Ashfaq Ahmed</p>
+            <p><strong>Description:</strong> A collection of essays and stories filled with wisdom, philosophy, and reflections on life and relationships.</p>
+        </div>
+
+        <div class="book">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfGyFGeSekTIKgSTul8JL7M9Ckz4p4uesV6w&s" alt="Raja Gidh">
+            <h3>Raja Gidh</h3>
+            <p><strong>Author:</strong> Bano Qudsia</p>
+            <p><strong>Description:</strong> A thought-provoking novel exploring the ethical and spiritual dilemmas of human existence through allegory and philosophy.</p>
+        </div>
+
+        <div class="book">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUx79reVhQoO-dj0h6C6c3Auo9kq0YhmDIUg&s" alt="Humsafar">
+            <h3>Humsafar</h3>
+            <p><strong>Author:</strong> Farhat Ishtiaq</p>
+            <p><strong>Description:</strong> A romantic and emotional story of love, trust, and misunderstandings, beautifully portraying the bond between Khirad and Ashar.</p>
+        </div>
+
+        <div class="book">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvHMKNGrshU6HDA9cOJy9X0sRYEaZ0ci6zYg&s" alt="Shahab Nama">
+            <h3>Shahab Nama</h3>
+            <p><strong>Author:</strong> Qudrat Ullah Shahab</p>
+            <p><strong>Description:</strong> An autobiographical masterpiece blending personal experiences with spiritual and political reflections on Pakistan.</p>
+        </div>
+
+        
+    </section>
+
+    <footer>
+        <ul class="nav-links">
+            <li><a href="./index.html"><b>HOME PAGE</b></a></li>
+            <li><a href="./1.html"><b>IMPORTANCE OF BOOKS</b></a></li>
+            <li><a href="./2.html"><b>CATEGORIES</b></a></li>
+            <li><a href="./3.html"><b>FAMOUS BOOKS</b></a></li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
